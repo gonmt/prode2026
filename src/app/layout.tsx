@@ -6,7 +6,7 @@ import { AuthProvider } from '@/contexts/AuthContext'
 const geist = Geist({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Prode Mundial 2026',
+  title: 'AJÁ PRODE',
   description: 'Prode del Mundial de Fútbol 2026',
   other: {
     'mobile-web-app-capable': 'yes',

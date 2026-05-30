@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Prode Mundial 2026',
-    short_name: 'Prode 2026',
+    name: 'AJÁ PRODE',
+    short_name: 'AJÁ PRODE',
     description: 'Prode del Mundial de Fútbol 2026',
     start_url: '/',
     display: 'standalone',

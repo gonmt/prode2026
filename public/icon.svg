@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fondo verde -->
+  <rect width="512" height="512" rx="96" fill="#14532d"/>
+
+  <!-- Pelota blanca centrada -->
+  <circle cx="256" cy="256" r="150" fill="white"/>
+
+  <!-- Parche central negro (pentágono) -->
+  <polygon points="256,200 309,239 289,301 223,301 203,239" fill="#111"/>
+
+  <!-- Líneas desde cada vértice del pentágono al borde de la pelota -->
+  <line x1="256" y1="200" x2="256" y2="106" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <line x1="309" y1="239" x2="399" y2="210" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <line x1="289" y1="301" x2="347" y2="379" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <line x1="223" y1="301" x2="165" y2="379" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <line x1="203" y1="239" x2="113" y2="210" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Parches externos -->
+  <circle cx="256" cy="106" r="22" fill="#111"/>
+  <circle cx="399" cy="210" r="22" fill="#111"/>
+  <circle cx="347" cy="379" r="22" fill="#111"/>
+  <circle cx="165" cy="379" r="22" fill="#111"/>
+  <circle cx="113" cy="210" r="22" fill="#111"/>
+
+  <!-- Borde de la pelota -->
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#111" stroke-width="7"/>
+</svg>
