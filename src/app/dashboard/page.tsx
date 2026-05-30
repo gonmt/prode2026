@@ -21,7 +21,7 @@ const PHASE_ORDER = ['group', 'round_of_32', 'round_of_16', 'quarter', 'semi', '
 type PredictionDraft = { home: string; away: string }
 
 export default function DashboardPage() {
-  const { session, isLoading, logout } = useAuth()
+  const { session, isLoading } = useAuth()
   const router = useRouter()
 
   const [tab, setTab] = useState<'fixture' | 'standings'>('fixture')
@@ -158,7 +158,6 @@ export default function DashboardPage() {
               Admin
             </button>
           )}
-          <button onClick={logout} className="text-xs text-red-400 underline">Salir</button>
         </div>
       </header>
 

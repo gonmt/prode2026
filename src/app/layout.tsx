@@ -8,6 +8,12 @@ const geist = Geist({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Prode Mundial 2026',
   description: 'Prode del Mundial de Fútbol 2026',
+  other: {
+    'mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-status-bar-style': 'black-translucent',
+    'apple-mobile-web-app-title': 'Prode 2026',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
